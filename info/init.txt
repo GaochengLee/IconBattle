@@ -1,0 +1,2 @@
+cocos new 一个项目 将其中的cocos2d 拷贝到svn根目录下。
+添加ign.txt 中的内容到忽略列表。

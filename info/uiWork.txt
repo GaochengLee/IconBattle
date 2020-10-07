@@ -1,0 +1,17 @@
+﻿Splash
+	1.找一个合适的背景
+	3.Click To Start 两边UTF8字符的添加(◆)
+	4.BGM
+
+Menu
+	1.底部滚动消息
+	4. user icon 要不要和立绘一起切换（不，懒
+Game
+	1.help
+Level
+	全部资源
+
+SettingLayer
+	资源
+
+周二30点之前肝完，准备对接文档(悲

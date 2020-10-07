@@ -1,0 +1,182 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="win32">
+      <UniqueIdentifier>{84a8ebd7-7cf0-47f6-b75e-d441df67da40}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="resource">
+      <UniqueIdentifier>{715254bc-d70b-4ec5-bf29-467dd3ace079}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src">
+      <UniqueIdentifier>{bb6c862e-70e9-49d9-81b7-3829a6f50471}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\scenes">
+      <UniqueIdentifier>{9c519d78-01f7-4ab2-b115-9c1c223248ad}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\app">
+      <UniqueIdentifier>{047c6d4d-1cac-46f1-b6f1-f4524a8bcf5b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\scenes\splashScene">
+      <UniqueIdentifier>{a1645a52-e850-4240-9985-1993407e4957}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\common">
+      <UniqueIdentifier>{b69f280b-f14f-42ff-a85c-4cee00d00b5a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\common\util">
+      <UniqueIdentifier>{cb5e38ee-8cd8-45fb-84c4-48935ab5546b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\scenes\classicialGameScene">
+      <UniqueIdentifier>{45caa4ff-a845-4dc1-97f1-344d3ecd3692}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\scenes\levelGameScene">
+      <UniqueIdentifier>{865d0739-f8e5-4056-9d64-3d2cf0fa91b0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\scenes\levelScene">
+      <UniqueIdentifier>{487f24af-4105-4a9a-8bcc-618acfad8a68}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\scenes\menuScene">
+      <UniqueIdentifier>{136f6a2e-59b5-4e0b-8e3e-8c533cad3606}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\scenes\specialGameScene">
+      <UniqueIdentifier>{a0ccfc8f-92f8-4cf1-ba0f-8436f2cc9a40}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\scenes\testScene">
+      <UniqueIdentifier>{ffd42db5-ad24-439f-aa2f-0111af5777bc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\common\user">
+      <UniqueIdentifier>{58b3a59a-d976-45b9-9d0e-cdd9e75f10f1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\common\myGame">
+      <UniqueIdentifier>{2abcf445-239a-442d-93d2-f60c09f3719a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\layers">
+      <UniqueIdentifier>{25d2aa6e-7ab9-4e47-86c3-047d122d68b7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\layers\endGameLayer">
+      <UniqueIdentifier>{c519ccc9-fa53-42c8-8fa6-4862c9a8d76c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\layers\settingLayer">
+      <UniqueIdentifier>{a44fea6b-4c56-4b34-b3cb-e78c4dbffd2a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\layers\quitEnsureLayer">
+      <UniqueIdentifier>{8a640014-b9eb-40ee-b835-f7b9f3f0d14b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\layers\scoreLayer">
+      <UniqueIdentifier>{45049d9c-ad3d-4064-870f-5f3eaac2a79d}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>win32</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\AppDelegate.cpp">
+      <Filter>src\app</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\util.cpp">
+      <Filter>src\common\util</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\HelloWorldScene.cpp">
+      <Filter>src\scenes\testScene</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\SplashScene.cpp">
+      <Filter>src\scenes\splashScene</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\MenuScene.cpp">
+      <Filter>src\scenes\menuScene</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\LevelScene.cpp">
+      <Filter>src\scenes\levelScene</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\SpecialGameScene.cpp">
+      <Filter>src\scenes\specialGameScene</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\LevelGameScene.cpp">
+      <Filter>src\scenes\levelGameScene</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\ClassicialGameScene.cpp">
+      <Filter>src\scenes\classicialGameScene</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\user.cpp">
+      <Filter>src\common\user</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\ClassicialGameScene_board.cpp">
+      <Filter>src\scenes\classicialGameScene</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\myGame.cpp">
+      <Filter>src\common\myGame</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\EndGameLayer.cpp">
+      <Filter>src\layers\endGameLayer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\SettingLayer.cpp">
+      <Filter>src\layers\settingLayer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\QuitEnsureLayer.cpp">
+      <Filter>src\layers\quitEnsureLayer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\ScoreLayer.cpp">
+      <Filter>src\layers\scoreLayer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\LevelGameScene_board.cpp">
+      <Filter>src\scenes\levelGameScene</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\SpecialGameScene_board.cpp">
+      <Filter>src\scenes\specialGameScene</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="main.h">
+      <Filter>win32</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\AppDelegate.h">
+      <Filter>src\app</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\util.h">
+      <Filter>src\common\util</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\HelloWorldScene.h">
+      <Filter>src\scenes\testScene</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\SplashScene.h">
+      <Filter>src\scenes\splashScene</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\MenuScene.h">
+      <Filter>src\scenes\menuScene</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\LevelScene.h">
+      <Filter>src\scenes\levelScene</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\SpecialGameScene.h">
+      <Filter>src\scenes\specialGameScene</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\LevelGameScene.h">
+      <Filter>src\scenes\levelGameScene</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\ClassicialGameScene.h">
+      <Filter>src\scenes\classicialGameScene</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\user.h">
+      <Filter>src\common\user</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\myGame.h">
+      <Filter>src\common\myGame</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\EndGameLayer.h">
+      <Filter>src\layers\endGameLayer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\SettingLayer.h">
+      <Filter>src\layers\settingLayer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\QuitEnsureLayer.h">
+      <Filter>src\layers\quitEnsureLayer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\ScoreLayer.h">
+      <Filter>src\layers\scoreLayer</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="game.rc">
+      <Filter>resource</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>
